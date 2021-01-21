@@ -1,0 +1,42 @@
+.container {
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 2% !important;
+    background-color: #27293d !important;
+    color: white !important;
+}
+
+.cardTextSecondary {
+    color:rgba(255,255,255,.5)!important;
+}
+
+.cardTextTertiary {
+    color: white !important;
+}
+
+.cardTextPrimary {
+    color: white !important;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(153, 102, 255);
+    color: rgba(153, 102, 255) !important;
+}
+
+.recovered {
+    border-bottom: 10px solid rgb(75, 192, 192);
+    color: rgb(75, 192, 192) !important;
+}
+
+.deaths {
+    border-bottom: 10px solid rgb(255, 99, 132);
+    color: rgb(255, 99, 132) !important;
+}
+
+@media (max-width: 770px){
+    .card {
+        margin: 2% 0 !important;
+    }
+}
